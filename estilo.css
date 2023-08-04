@@ -1,0 +1,89 @@
+body {
+    background-image: url(imagens/disposicao-da-mesa-com-vista-superior.jpg);
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    margin-top: 15em;
+    /* padding: 300px; */
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+.list-wrapper {
+    
+    margin-bottom: 300px;
+}
+
+.main-title {
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, .1);
+    color: #52653b;
+    border-radius: 12px;
+    padding: 5px;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+    box-shadow: 3px 1px 8px  rgb(189, 170, 5);
+}
+
+.main-title:hover {
+    font-size: 33px;
+    box-shadow: 3px 1px 8px  rgb(20, 189, 5);
+}
+
+.list{
+    color: #52653b;
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.list-item {
+    background-color: rgba(0, 0, 0, .1);
+    background-image: url(imagens/thumb06.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex-basis:250px;
+    border-radius: 12px;
+    box-shadow: 3px 1px 8px  rgb(189, 170, 5);
+    text-align: center;
+
+}
+
+.list-item__img img {
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 100px;
+}
+
+.list-item__action {
+    padding: 5px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .1);
+}
+.list-item__action img {
+    opacity: .4;
+}
+
+.list-item__name {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+.list-item__email {
+    margin:auto
+}
+
